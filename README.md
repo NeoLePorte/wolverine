@@ -11,12 +11,11 @@ To run this script, you must have Node.js installed on your computer, and you mu
 ### Installation
 
 Clone this repository or download wolverine.js to your local machine.
-Install dependencies by running npm install in the same directory as wolverine.js.
+Install dependencies by running ``` npm install ``` in the same directory as wolverine.js.
 Create a .env file in the same directory as wolverine.js with the following content:
 
 ```
 OPENAI_API_KEY=<your_openai_api_key>
-
 ```
 
 Replace <your_openai_api_key> with your actual OpenAI API key. - warning! by default this uses GPT-4 and may make many repeated calls to the api.
@@ -27,13 +26,11 @@ Run the script with the following command:
 
 ```
 node wolverine.js <script_name> <arg1> <arg2> ...
-
 ```
 
 **EXAMPLE**
 ```
 node wolverine.js buggy_script.js "subtract" 20 3
-
 ```
 
 Replace <script_name> with the name of the script you want to run and <arg1>, <arg2>, etc. with the arguments you want to pass to the script.
