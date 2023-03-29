@@ -53,6 +53,7 @@ dotenv: Node.js module for loading environment variables from a .env file.
 ### To-Do
 fix jest test
 
+**some things biobootloader suggests**
 *add flags to customize usage, such as using GPT3.5-turbo instead or asking for user confirmation before running changed code
 *further iterations on the edit format that GPT responds in. Currently it struggles a bit with indentation, but I'm sure that can be improved
 *a suite of example buggy files that we can test prompts on to ensure reliablity and measure improvement
