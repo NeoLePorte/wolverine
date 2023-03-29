@@ -44,18 +44,18 @@ The original script is automatically backed up before any changes are applied, a
 
 ### Dependencies
 
--fs: Node.js file system module.
--child_process: Node.js child process module.
--openai: Official OpenAI API module.
--chalk: Node.js library for terminal string styling.
--dotenv: Node.js module for loading environment variables from a .env file.
+* fs: Node.js file system module.
+* child_process: Node.js child process module.
+* openai: Official OpenAI API module.
+* chalk: Node.js library for terminal string styling.
+* dotenv: Node.js module for loading environment variables from a .env file.
 
 ### To-Do
--fix jest test
+fix jest test
 
 **some things biobootloader suggests**
--add flags to customize usage, such as using GPT3.5-turbo instead or asking for user confirmation before running changed code
--further iterations on the edit format that GPT responds in. Currently it struggles a bit with indentation, but I'm sure that can be improved
--a suite of example buggy files that we can test prompts on to ensure reliablity and measure improvement
--multiple files / codebases: send GPT everything that appears in the stacktrace
--graceful handling of large files - should we just send GPT relevant classes / functions?
+* add flags to customize usage, such as using GPT3.5-turbo instead or asking for user confirmation before running changed code
+* further iterations on the edit format that GPT responds in. Currently it struggles a bit with indentation, but I'm sure that can be improved
+* a suite of example buggy files that we can test prompts on to ensure reliablity and measure improvement
+* multiple files / codebases: send GPT everything that appears in the stacktrace
+* graceful handling of large files - should we just send GPT relevant classes / functions?
