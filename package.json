@@ -1,4 +1,8 @@
 {
+  "name": "Wolverine",
+  "version": "0.0.1",
+  "description": "A simple CLI app edit and correct erros in scripts. With the help of chatGPT",
+  "main": "wolverine.js",
   "dependencies": {
     "chalk": "^4.1.2",
     "child_process": "^1.0.2",
@@ -11,5 +15,6 @@
   "scripts": {
     "start": "node wolverine.js",
     "test": "jest"
-  }
+  },
+  "license": "MIT"
 }
